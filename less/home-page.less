@@ -117,4 +117,43 @@
       }
     }
   }
+    
+  .content-submit {
+    padding-top: 30px;
+    border-top: 2px dashed @navigation-border;
+
+    .choices {
+      font-size: 1.6rem;
+    }
+        
+    form {
+      padding-bottom: 30px;
+
+      .info {
+        width: 100%;
+        margin-bottom: 10px;
+
+        input, textarea {
+          width: 100%;
+        }
+
+        p {
+          padding-top: 10px;
+        }
+      }
+
+      .submit {
+        text-align: center;
+      }
+
+      input[type=submit] {
+        .sign-button(white, @button-bg);
+        width: 50%;
+      }
+      
+      input[type=submit]:hover {
+        .flash(0.5s);
+      }
+    }
+  }
 }// home

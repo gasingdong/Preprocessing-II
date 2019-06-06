@@ -351,3 +351,41 @@ img {
     width: 80%;
   }
 }
+.home .content-submit {
+  padding-top: 30px;
+  border-top: 2px dashed #C0C0C0;
+}
+.home .content-submit .choices {
+  font-size: 1.6rem;
+}
+.home .content-submit form {
+  padding-bottom: 30px;
+}
+.home .content-submit form .info {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.home .content-submit form .info input,
+.home .content-submit form .info textarea {
+  width: 100%;
+}
+.home .content-submit form .info p {
+  padding-top: 10px;
+}
+.home .content-submit form .submit {
+  text-align: center;
+}
+.home .content-submit form input[type=submit] {
+  border-radius: 15px;
+  background: #17A2B8;
+  font-size: 2rem;
+  width: 80%;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  border: 1px solid #C0C0C0;
+  width: 50%;
+}
+.home .content-submit form input[type=submit]:hover {
+  animation: flash 0.5s linear infinite alternate;
+}
