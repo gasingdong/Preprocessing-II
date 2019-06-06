@@ -1,3 +1,4 @@
+/*Animation mixins*/
 @keyframes flash {
   0% {
     opacity: 1;
@@ -191,6 +192,7 @@ img {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  /*Adjusted margin to align navigation to the sides*/
 }
 .navigation nav a {
   color: black;
