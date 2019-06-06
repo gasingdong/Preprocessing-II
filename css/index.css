@@ -191,6 +191,20 @@ img {
 .navigation nav h1 {
   margin-right: auto;
 }
+@media (max-width: 500px) {
+  .navigation nav h1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .navigation nav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

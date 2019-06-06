@@ -9,7 +9,7 @@
         margin-top: 2rem;
         font-size: 1.6rem;
         padding-bottom: 2rem;
-        .flex-row(center, center);
+        .flex(row, center, center);
 
         a {
             color: black;
@@ -19,6 +19,15 @@
 
         h1 {
             margin-right: auto;
+            
+            @media @mobile {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+        
+        @media @mobile {
+            .flex(column, center, center);
         }
     }
 }
