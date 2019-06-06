@@ -16,3 +16,16 @@
     color: @text-color;
     border: 1px solid @navigation-border;
 }
+
+@keyframes flash { 
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.flash(@time) {
+    animation: flash @time linear infinite alternate;
+}

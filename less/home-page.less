@@ -102,7 +102,14 @@
         
       .btn {
         .sign-button(white, @button-bg);
-        width: 100%;
+          
+        @media @mobile {
+          width: 100%;
+        }
+      }
+
+      .btn:hover {
+        .flash(0.5s);
       }
         
       @media @mobile {

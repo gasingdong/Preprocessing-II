@@ -1,3 +1,11 @@
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -188,6 +196,9 @@ img {
   text-decoration: none;
   padding: 1.5rem;
 }
+.navigation nav a:hover {
+  animation: flash 2s linear infinite alternate;
+}
 .navigation nav h1 {
   margin-right: auto;
 }
@@ -326,7 +337,14 @@ img {
   padding: 1rem;
   color: white;
   border: 1px solid #C0C0C0;
-  width: 100%;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+  }
+}
+.home .content-pick .destination .btn:hover {
+  animation: flash 0.5s linear infinite alternate;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
