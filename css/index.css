@@ -203,13 +203,13 @@ img {
 .navigation nav h1 {
   margin-right: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .navigation nav h1 {
     margin-right: 0;
     margin-bottom: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .navigation nav {
     display: flex;
     flex-flow: column wrap;
@@ -248,7 +248,7 @@ img {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-section .text-content {
     width: 100%;
     padding: 0;
@@ -258,19 +258,21 @@ img {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-section .img-content {
     width: 100%;
     padding: 0;
     order: 99;
+    text-align: center;
   }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-section .img-content img {
     width: 100%;
+    max-width: 400px;
     text-align: center;
   }
 }
@@ -282,7 +284,7 @@ img {
   padding-left: 1%;
   padding-right: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .inverse-content .text-content {
     padding: 0;
   }
@@ -291,7 +293,7 @@ img {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .inverse-content .img-content {
     width: 100%;
     padding: 0;
@@ -302,7 +304,7 @@ img {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-destination {
     width: 100%;
     margin: 0 0 30px;
@@ -317,7 +319,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-pick {
     display: flex;
     flex-flow: column wrap;
@@ -339,7 +341,7 @@ img {
   color: white;
   border: 1px solid #C0C0C0;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-pick .destination .btn {
     width: 100%;
   }
@@ -347,7 +349,7 @@ img {
 .home .content-pick .destination .btn:hover {
   animation: flash 0.5s linear infinite alternate;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .home .content-pick .destination {
     width: 80%;
   }
